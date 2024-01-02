@@ -21,12 +21,12 @@ function run() {
 
 		}
 		if (exec('git commit -am "Form auto backup script\'s commit"').code !== 0) {
-			echo('Error: Git commit failed');
+			echo('Error: Git commit failed1');
 			exit(1);
 
 		}
 		if (exec('git push origin hexo').code !== 0) {
-			echo('Error: Git push failed');
+			echo('Error: Git push failed2');
 			exit(1);
 
 		}
