@@ -5,6 +5,3 @@ node_modules/
 *.log
 public/
 .deploy*/
-/themes/Annie
-/themes/antiquity
-/themes/landscape
